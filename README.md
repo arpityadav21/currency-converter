@@ -5,7 +5,7 @@ A real-time currency converter web app built with React.js that lets you convert
 ![Currency Converter](screenshot.png)
 
 ## 🌐 Live Demo
-[Coming soon — deploying on Vercel]
+(https://currency-converter-ten-livid.vercel.app)
 
 ## ✨ Features
 

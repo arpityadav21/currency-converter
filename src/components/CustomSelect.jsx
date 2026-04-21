@@ -10,6 +10,7 @@ function CustomSelect({ options, selected, onSelect }) {
         <img 
           src={`https://flagcdn.com/24x18/${selected.slice(0, 2)}.png`}
           alt={selected}
+          onError={(e) => e.target.style.display = 'none'}
         />
         {selected.toUpperCase()}
       </button>
@@ -29,6 +30,7 @@ function CustomSelect({ options, selected, onSelect }) {
               <img
                 src={`https://flagcdn.com/24x18/${currency.slice(0, 2)}.png`}
                 alt={currency}
+                onError={(e) => e.target.style.display = 'none'}
               />
               {currency.toUpperCase()}
             </div>
